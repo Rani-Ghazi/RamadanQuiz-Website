@@ -16,7 +16,7 @@ This project is a website designed to educate and entertain users during the hol
 - **Frontend:** HTML, CSS, JavaScript
 
 ## Getting Started:
-To run the project locally, clone the repository and follow the setup instructions in the README file. Contributions and feedback are welcome!
+To run the project locally just Download the zib folder extract it .
 
 ## Demo:
 Check out the live demo [here](https://ramadanquiz.tiiny.site/).
