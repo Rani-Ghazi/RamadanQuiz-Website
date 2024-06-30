@@ -19,6 +19,4 @@ This project is a website designed to educate and entertain users during the hol
 Check out the live demo [here](https://ramadanquiz.tiiny.site/).
 
 ## Contributors:
-- Rani Ghazi
-
 Feel free to explore, contribute, and share this project to promote cultural understanding and learning during Ramadan.
