@@ -15,9 +15,6 @@ This project is a website designed to educate and entertain users during the hol
 ## Technologies Used:
 - **Frontend:** HTML, CSS, JavaScript
 
-## Getting Started:
-To run the project locally just Download the zib folder extract it .
-
 ## Demo:
 Check out the live demo [here](https://ramadanquiz.tiiny.site/).
 
