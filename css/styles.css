@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../images/moon-light-shine-through-window-into-islamic-mosque-interior-min.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.header {
+    background-color: rgba(18, 34, 59, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    animation: slideInDown 1s ease-in-out;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+    animation: fadeInLeft 1s ease-in-out;
+}
+
+.choices {
+    display: grid;
+    gap: 10px;
+    animation: slideInRight 1s ease-in-out;
+    width: 100%;
+    /* Adjust the width as needed */
+    margin: 0 auto;
+    /* Center the choices */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgba(18, 34, 59, 0.8);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    /* تحرك الزر باللون عند التحويل */
+}
+
+button:hover {
+    background-color: #2f6094;
+}
+
+.result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.restart-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(18, 34, 59, 0.8);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    animation: fadeInUp 1s ease-in-out;
+    transition: background-color 0.3s ease;
+    /* تحرك الزر باللون عند التحويل */
+}
+
+.restart-button:hover {
+    background-color: #2f6094;
+}
+
+.footer {
+    background-color: rgba(18, 34, 59, 0.8);
+    ;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    animation: slideInUp 1s ease-in-out;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 18px;
+}
+
+@keyframes slideInUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
